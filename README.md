@@ -1,4 +1,6 @@
 # How to start
+The zip file contains all the components needed to work. Other files are exactly the same as in the archive.
+
 To use LOL Language Changer you first need to find the path to the LeagueClient.exe file which is in your league of legends folder. The base path is contained in the path file, but it may differ from your path. To change it, click the reset button and search for LeagueClient.exe. Then select a language from the list. if everything went according to plan, the Open League Of Legends button will appear. Click it and enjoy the changed language.
 
 IMPORTANT:
