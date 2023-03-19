@@ -5,3 +5,6 @@ Once you have chosen the path to the file, you don't have to do it every time. A
 For the first time after changing the language, you always have to start the program via a button or a created shortcut. Every time after that, the starting method doesn't matter.
 If the path file is deleted, the program will stop working. To fix this, just create it manually.
 The code of the entire program is contained in the file with the .py extension. Feel free to modify it however you like.
+
+CHANGELOG:
+-Option list will now start with "Select Language" to avoid misunderstanding

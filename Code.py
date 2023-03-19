@@ -32,7 +32,9 @@ def select_path():
 def reset_path():
     with open("path.txt", 'r+') as path:
         path.truncate(0)
-        show_path.config(text="Choose path")
+    show_path.config(text="Choose Path")
+    selected_language.set("Choose Language")
+    language_choice.config(text="")
 
 
 def select_language(option):
@@ -40,6 +42,7 @@ def select_language(option):
 
     if file_path == "":
         language_choice.config(text="Please select a file path first.")
+        selected_language.set("Choose Language")
         return
 
     language_choice.config(text=f"Created shortcut for {option} language")
@@ -94,7 +97,7 @@ Languages = ["Japanese", "Korean", "Chinese", "Taiwanese", "Spanish (Spain)", "S
              "Italian", "Polish", "Romanian", "Greek", "Portuguese", "Hungarian", "Russian", "Turkish"]
 
 selected_language = tk.StringVar(root)
-selected_language.set(Languages[0])
+selected_language.set("Choose Language")
 
 language_menu = tk.OptionMenu(root, selected_language, *Languages, command=select_language)
 
