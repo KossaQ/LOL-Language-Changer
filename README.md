@@ -16,3 +16,5 @@ doesn't matter.
 -If the path.txt file is deleted, the program will stop working. To fix this, just create it manually.
 
 -The code of the entire program is contained in the file with the .py extension. Feel free to modify it however you like.
+
+![image](https://user-images.githubusercontent.com/45899559/226208936-93c5936f-f35d-4886-b7cd-f033b9a9e2fb.png)
