@@ -7,4 +7,10 @@ If the path file is deleted, the program will stop working. To fix this, just cr
 The code of the entire program is contained in the file with the .py extension. Feel free to modify it however you like.
 
 CHANGELOG:
--Option list will now start with "Select Language" to avoid misunderstanding
+-Path file will now create itself if do not exists.
+-"Open League Of Legends" Button will now disappear when the reset button is clicked
+-Choose Path will not be changed into empty path when shutting down
+-Select Path will not be changed to empty Path: when the path selection window is closed without selecting it.
+-Window cannot be resized now.
+-Renamed root variable to window in code file
+
