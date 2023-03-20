@@ -13,7 +13,7 @@ IMPORTANT:
 -For the first time after changing the language, you always have to start the program via a button or a created shortcut. Every time after that, the starting method 
 doesn't matter.
 
--If the path.txt file is deleted, the program will stop working. To fix this, just create it manually.
+-(Only in older builds)If the path.txt file is deleted, the program will stop working. To fix this, just create it manually.
 
 -The code of the entire program is contained in the file with the .py extension. Feel free to modify it however you like.
 
